@@ -5,7 +5,7 @@ Sensordaten, resampled auf 50Hz, bildet Sliding Windows und laesst das beste
 Modell die Bewegungsart vorhersagen.
 
 Das beste Modell wird aus ../Model_data/best_model/metadata.json gelesen.
-Wenn dort nichts liegt, faellt das Dashboard auf einen Demo-Modus zurueck.
+Wenn dort nichts liegt, fällt das Dashboard auf einen Demo-Modus zurueck.
 """
 from __future__ import annotations
 import json
@@ -653,8 +653,8 @@ st.markdown(
         <div class="step-title">Aufnahme machen</div>
         <div class="step-desc">
           Handy in die Hosen- oder Jackentasche stecken, egal in welcher Position (Die besten Resultate erzielt man aber wenn das Handy mit der Kamera nach unten in die Hosentasche gesteckt wird), dann <b>Aufnahmen starten</b> drücken,
-          einer der 7 Aktivitäten ausführen, danach auf <b>Aufn. beenden</b> drücken. Mindestens <b>10 Sekunden</b> —
-          die ersten und letzten 3 s werden automatisch weggeschnitten.
+          einer der 7 Aktivitäten ausführen, danach auf <b>Aufn. beenden</b> drücken. Mindestens <b>10 Sekunden aufnehmen.</b>
+          Die ersten und letzten 3 s werden automatisch weggeschnitten.
         </div>
       </div>
 
@@ -671,7 +671,7 @@ st.markdown(
         <div class="step-number">5</div>
         <div class="step-title">Hier hochladen</div>
         <div class="step-desc">
-          ZIP unten reinziehen — das Modell sagt dir, welche der
+          ZIP unten reinziehen, das Modell sagt dir, welche der
           7 Aktivitäten (Auto, Velo, Lift, Treppe, Zug, Laufen, Roundkick)
           erkannt wurde.
         </div>
