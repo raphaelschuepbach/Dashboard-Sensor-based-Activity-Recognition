@@ -928,7 +928,7 @@ if uploaded is not None:
 
 else:
     st.info(
-        "👆 Lade eine ZIP von Sensor Logger hoch um zu starten. "
+        "Lade eine ZIP von Sensor Logger hoch um zu starten. "
         "Die Datei muss `Accelerometer.csv`, `Gyroscope.csv` und `Orientation.csv` "
         "enthalten."
     )
